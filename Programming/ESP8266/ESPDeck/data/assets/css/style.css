@@ -1,0 +1,99 @@
+html, body{
+  height: 100%;
+}
+
+.btn{
+    padding: 20px !important;
+    margin: 10px !important;
+    color: black;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+    background-color: red !important;
+}
+
+.json-area{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+button#prettify{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+ul.navbar-nav li.active{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 5px;
+}
+
+ul.navbar-nav li.active a{
+    color: black !important;
+}
+
+
+
+
+/* LOADING SPINNER */
+
+div.loading-spinner-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid darkred;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 100px;
+      left: 100px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 200px;
+      height: 200px;
+      opacity: 0;
+    }
+  }
+
+  textarea#json-input{
+    display: none;
+  }
+
+  div#jsoneditor{
+    width: 100%;
+    height: 100%;
+  }
+
+  div#jsonWrapper{
+    height: 100%;
+  }

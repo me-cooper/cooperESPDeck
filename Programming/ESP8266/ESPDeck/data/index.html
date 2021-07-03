@@ -1,0 +1,74 @@
+<!doctype html>
+ 
+<html lang="de">
+<head>
+ 
+  <meta charset="utf-8">
+ 
+  <title>ESPDeck by cooper</title>
+  <meta name="description" content="makesmart HTML Template">
+  <meta name="author" content="cooper">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+ 
+  <!-- Stylesheet-Datei -->
+  <link rel="stylesheet" href="assets/css/style.css">
+ 
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+  <!-- jQuery & jQuery UI-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+ 
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+ 
+</head>
+ 
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/"><img src="https://my.makesmart.net/assets/uploads/profile/1-profileavatar.png" alt="logo" height="40px"></img>ESPDeck</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Deck <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/edit">Edit</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <div class="row">
+      <div class="col-xs" style="margin-left: 10px;">
+        <button class="btn btn-success trigger button" id="add:marker"><i class="fa fa-bookmark"></i> Marker setzen</button>
+      </div>
+  </div>
+
+
+  <div class="row" id="deck-buttons-container">
+
+    <div class="loading-spinner-container">
+      <div class="col-md-12">
+        <div class="lds-ripple"><div></div><div></div></div>
+      </div>
+    </div>
+
+  </div>
+  
+  
+  <!-- Javascript Datei -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
